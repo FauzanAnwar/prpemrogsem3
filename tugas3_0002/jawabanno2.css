@@ -1,0 +1,77 @@
+.info{
+	float: left;
+	width: 250px;
+	height: 200px;
+	color: white;
+	background-color: lightgray;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+#out1{
+	background-color: pink;
+	width: 30%;
+	height: 700px;
+	float: left; 
+}
+
+#out2{
+	height: 600px;
+	background-color: green;
+	padding-top: 20px;  
+}
+
+#logo{
+	width: 200px;
+	height: 150px;
+	color: white;
+	background-color: black;
+	margin-left: 51px;
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-left: 15px; 
+}
+
+.menu{
+	width: 260px;
+	height: 43px;
+	background-color: blue;
+	margin-left: 50px;
+	margin-top: 15px;
+	padding-top: 15px;
+	text-align: center; 
+}
+
+#header{
+	width: 450px;
+	height: 30px;
+	color: white;
+	background-color: purple;
+	margin-left: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#image{
+	width: 850px;
+	height: 300px;
+	color: white;
+	background-color: orange;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-left: 32px;
+	margin-top: 10px; 
+}
+
+#footer{
+	width: 850px;
+	height: 30px;
+	color: white;
+	background-color: gray;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-left: 30px;
+	margin-top: 230px; 
+}

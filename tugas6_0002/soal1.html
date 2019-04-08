@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>soal1</title>
+	<style>
+	.container{
+		display: flex;
+	}
+	.sidebar{
+		display: flex;
+		height: 800px;
+		width: 25%;
+		background-color: pink;
+		flex-direction: column;
+	}
+	.logo{
+		background-color: #000;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%
+		color :#fff;
+		margin: 10px auto;
+	}
+	.logo>p{
+		margin:60px;
+	}
+	.menu{
+		width: 75%;
+		background-color: #00f;
+		color: #fff;
+		margin: 10px auto;
+	}
+	.menu>p{
+		margin: 10px;
+	}
+	.content{
+		height: 800px;
+		width: 75%;
+		background-color: #90ee90;
+		display: flex;
+		flex-direction: column
+	}
+	.header{
+		width: 50%;
+		height: 50px;
+		background-color: purple;
+		color: #fff;
+		margin: 10px;
+	}
+	.header>p{
+		margin:10px;
+	}
+	.maining{
+		height: 370px;
+		background-color: orange;
+		margin:10px;
+	}
+	.maining>p{
+		margin: 10px
+	}
+	.info{
+		display: flex;
+		flex-direction: row;
+		margin: 10px;
+		justify-content: space-between;
+	}
+	.infochild{
+		width: 32%;
+		height: 125px;
+		background-color: #add8e6
+	}
+	.infochild>p{
+		margin: 10px;
+	}
+	.footer{
+		background-color: gray;
+		color: #fff;
+		margin: 10px;
+	}
+	.footer>p{
+		margin: 10px
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+	<div class="sidebar">
+		<div class="logo"><p>Logo</p></div>
+		<div class="menu"><p>Menu 1</p></div>
+		<div class="menu"><p>Menu 2</p></div>
+		<div class="menu"><p>Menu 3</p></div>
+		<div class="menu"><p>Menu 4</p></div>
+		<div class="menu"><p>Menu 5</p></div>
+</div>
+<div class="content">
+	<div class="header"><p>Header</p></div>
+	<div class="maining"><p>Main image</p></div>
+	<div class="info">
+		<div class="infochild"><p>Info</p></div>
+		<div class="infochild"><p>Info</p></div>
+		<div class="infochild"><p>Info</p></div>
+</div>
+<div class="footer"><p>Footer</p></div>
+</div>
+</div>
+</body>
+</html>

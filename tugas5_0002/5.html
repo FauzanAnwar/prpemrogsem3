@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body {
+		background-image: url(wood.jpg);
+		background-size: 100%;
+	}
+	div.relative {
+		position: relative;
+		left: 10px;
+		top: 10px;
+		width: 50%;
+		height: 50%;
+	}
+	div.absolute {
+		width: 200px;
+		height: 10px;
+		background-color: white;
+		position: absolute;
+		margin: 0px;
+		bottom: -195px;
+		opacity: 0.0;
+		transition: height 1s;
+	}
+	div.absolute:hover{
+		opacity: 0.5;
+		height: 200px;
+	}
+	img {
+		width: 200px;
+		height: 200px;
+		position: relative;
+		margin: -100px;
+		top: 100px;
+		left: 100px;
+	}
+	div.segitiga {
+		width: 0px;
+		height: 0px;
+		border-bottom: 50px solid white;
+		border-right: 50px solid transparent;
+		position: absolute;
+		top: 165px;
+	}
+	</style>
+</head>
+<body>
+	<div class="relative">
+		<div class="absolute"></div>
+		<img src="cappucino.jpg">
+		<div class="absolute"></div>
+		<div class="segitiga">
+		<br>
+		90k</div>
+
+	</div>
+</body>
+</html>
